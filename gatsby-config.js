@@ -5,8 +5,11 @@
  */
 
 module.exports = {
-  /* Your site config here */
+  siteMetadata: {
+    title: 'The Great Gatsby Bootcamp',
+    author: 'Nicolas Stark'
+  },
   plugins: [
     `gatsby-plugin-sass`
   ]
-}
+} 
